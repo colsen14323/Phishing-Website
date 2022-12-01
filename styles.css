@@ -7,16 +7,18 @@
     box-sizing: border-box;
     height: 150px;
     padding: 0%;
+    display: flex;
     
 }
 
-h2 {
-    margin: 0%;
+.Hometitle h2 {
+    margin: auto auto;
 }
 
 p {
     font-size: 16px;
 }
+
 
 .Nav {
     background-color:  rgb(61, 61, 125);
@@ -26,5 +28,32 @@ p {
     flex-direction: row;
     justify-content: space-around;
     font-size: 2em;
+}
 
+.Nav div {
+    border: solid black 3px;
+    width: auto;
+}
+
+body {
+    background-image: url(images/Fishing\ pole\ pole.png);
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    background-color: #455C6B;
+    background-position-x: center;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 150px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.hero {
+    background-color: rgba(51, 76, 106, 0.7);
+    border-radius: 25px;
+    width: fit-content;
+    padding: 10px;
+    margin: 100px auto;
 }
