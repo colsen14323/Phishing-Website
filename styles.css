@@ -1,3 +1,14 @@
+a{
+    color: white;
+    text-decoration:none;
+}
+
+div[class^="definition"]{
+    width: 100%;
+    background-color: #334C6A;
+    min-height: 100px;
+}
+
 .Hometitle {
     background-color: #334C6A;
     color: aliceblue;
@@ -11,8 +22,13 @@
     
 }
 
+.Hometitle a {
+    margin: auto auto;
+
+}
 .Hometitle h2 {
     margin: auto auto;
+    
 }
 
 p {
@@ -23,17 +39,21 @@ p {
 .Nav {
     background-color:  #334C6A;
     color: aliceblue;
-    border: solid black 3px;
+    /* border: solid black 3px; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 2em;
 }
 
-.Nav div {
+.Nav a{
+    box-sizing: border-box;
     border: solid black 3px;
     width: calc(100% / 3);
     text-align:center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 body {
@@ -42,6 +62,7 @@ body {
     background-position-y: 200px;
     background-color: #455C6B;
     background-position-x: center;
+    background-size: 50vw;
     margin:0px;
 }
 
@@ -105,7 +126,7 @@ h4 {
     padding:10px;
     border-radius: 5px;
     background-color:#334C6A;
-    font-size:35px;
+    font-size:4vw;
 }
 
 .footer-info {
