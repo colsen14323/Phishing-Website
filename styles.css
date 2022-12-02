@@ -1,5 +1,5 @@
 .Hometitle {
-    background-color: rgb(61, 61, 125);
+    background-color: #334C6A;
     color: aliceblue;
     border: solid black 3px ; 
     text-align: center;
@@ -21,7 +21,7 @@ p {
 
 
 .Nav {
-    background-color:  rgb(61, 61, 125);
+    background-color:  #334C6A;
     color: aliceblue;
     border: solid black 3px;
     display: flex;
@@ -32,7 +32,8 @@ p {
 
 .Nav div {
     border: solid black 3px;
-    width: auto;
+    width: calc(100% / 3);
+    text-align:center;
 }
 
 body {
@@ -41,6 +42,7 @@ body {
     background-position-y: 200px;
     background-color: #455C6B;
     background-position-x: center;
+    margin:0px;
 }
 
 .hero p {
@@ -56,4 +58,67 @@ body {
     width: fit-content;
     padding: 10px;
     margin: 100px auto;
+}
+
+footer {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: column;
+    width:100%;
+    background-color:#334C6A;
+}
+
+.foot-nav,
+.footer-info {
+    color:#FFF;
+}
+
+div[class^=back-img] {
+    height:100vh;
+    width:100%;
+    background-repeat:none;
+    background-size:cover;
+    margin:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+
+.back-img1 {
+    background-image:url(images/network\ boosted.jpg)
+}
+
+.back-img2 {
+    background-image:url(images/Hecker\ bosted.jpg)
+}
+
+.back-img3 {
+    background-image:url(images/lock\ boosted.jpg)
+}
+
+h3,
+h4 {
+    margin:0;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    background-color:#334C6A;
+    font-size:35px;
+}
+
+.footer-info {
+    position:relative;
+    width:150px;
+    right:calc(50% - 85px);
+}
+
+footer a {
+    color:white;
+    text-decoration:none;
+    border-right: solid rgba(255, 255, 255, 0.462) 1px;
+}
+footer a:last-of-type {
+    border:none;
 }
