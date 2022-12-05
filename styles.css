@@ -7,6 +7,7 @@ div[class^="definition"]{
     width: 100%;
     background-color: #334C6A;
     min-height: 100px;
+    margin-bottom: 10vh;
 }
 
 .Hometitle {
@@ -57,6 +58,10 @@ p {
 }
 
 body {
+    background-color: #455C6B;
+}
+
+.home-body {
     background-image: url(images/Fishing\ pole\ pole.png);
     background-repeat: no-repeat;
     background-position-y: 200px;
@@ -66,19 +71,27 @@ body {
     margin:0px;
 }
 
-.hero p {
+div[class*=hero] p {
     text-align: center;
     font-size: 150px;
     color: aliceblue;
     margin: 0;
-}
-
-.hero {
     background-color: rgba(51, 76, 106, 0.7);
     border-radius: 25px;
     width: fit-content;
     padding: 10px;
-    margin: 100px auto;
+}
+
+div[class*=hero] {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+.about-hero {
+    background-image: url(images/network\ boosted.jpg);
 }
 
 footer {
@@ -142,4 +155,40 @@ footer a {
 }
 footer a:last-of-type {
     border:none;
+}
+
+.defin-content {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 90%;
+    color: white;
+}
+
+.defin-content p {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.phish-ing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+}
+
+.pronounciation {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px; 
 }
