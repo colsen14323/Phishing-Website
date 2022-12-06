@@ -59,6 +59,7 @@ p {
 
 body {
     background-color: #455C6B;
+    margin: 0;
 }
 
 .home-body {
@@ -117,7 +118,7 @@ div[class^=back-img] {
     display:flex;
     align-items:center;
     justify-content:space-around;
-
+    background-position: center;
 }
 
 .back-img1 {
@@ -159,7 +160,7 @@ footer a:last-of-type {
 
 .defin-content {
     margin: 0 auto;
-    padding: 1rem 0;
+    padding: 2rem 0;
     width: 90%;
     color: white;
 }
@@ -185,6 +186,7 @@ footer a:last-of-type {
     font-weight: 400;
     font-size: 72px;
     line-height: 80px;
+    margin-top: 30px;
 }
 
 .pronounciation {
@@ -192,3 +194,26 @@ footer a:last-of-type {
     font-size: 48px;
     line-height: 60px; 
 }
+
+.creditOxford {
+    padding-top: px;
+    font-size: 27px;
+}
+
+.typeSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #334C6A;
+    margin-bottom: 10vh;
+    font-size: 25px;
+    color: white;
+}
+
+/*
+make p text bigger
+p thinner
+uniform image size
+padding to sections
+*/
