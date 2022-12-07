@@ -102,6 +102,7 @@ footer {
     flex-direction: column;
     width:100%;
     background-color:#334C6A;
+    margin-top: 5vh;
 }
 
 .foot-nav,
@@ -209,11 +210,55 @@ footer a:last-of-type {
     margin-bottom: 10vh;
     font-size: 25px;
     color: white;
+    padding: 30px;
+}
+
+.typeSection p{
+    font-size: 25px;
+    width: 60%;
 }
 
 /*
-make p text bigger
-p thinner
+
+
 uniform image size
 padding to sections
 */
+
+.typeSection img{
+width: 60%;
+
+}
+
+
+.protectsection{
+display: flex;
+width: 100%;
+justify-content: space-between;
+box-sizing: border-box;
+padding: 0 calc((100% - 1400px)/2);
+align-items: center;
+}
+
+.protectsectiontext{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    flex-direction: column;
+    background-color:#334C6A;
+    color:white;
+    padding: 15px;
+    height: 320px;
+}
+
+.protectsection img{
+height: 300px;
+}
+
+.protectsectiontext p{
+    font-size: 25px;
+}
+
+header{
+    margin-bottom: 5vh;
+}
