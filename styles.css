@@ -1,3 +1,7 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 a{
     color: white;
     text-decoration:none;
@@ -9,10 +13,11 @@ section[class^="definition"]{
     margin-bottom: 10vh;
 }
 
-.Hometitle {
+.Title {
     background-color: #334C6A;
     color: aliceblue;
-    border: solid black 3px ; 
+    border: solid black 6px ; 
+    border-bottom: solid black 3px ; 
     text-align: center;
     font-size: 3em;
     box-sizing: border-box;
@@ -22,11 +27,11 @@ section[class^="definition"]{
     
 }
 
-.Hometitle a {
+.Title a {
     margin: auto auto;
 
 }
-.Hometitle h2 {
+.Title h2 {
     margin: auto auto;
     
 }
@@ -101,6 +106,7 @@ section[class*=hero] {
     background-repeat: no-repeat;
     padding: 100px 0;
     height: 50vh;
+    margin-bottom: 5vh;
 }
 
 .about-hero {
@@ -113,6 +119,10 @@ section[class*=hero] {
 
 .protect-hero {
     background-image: url(images/lock\ boosted.jpg);
+}
+
+section.home-hero{
+    margin-bottom: 0;
 }
 
 footer {
@@ -237,6 +247,10 @@ footer a:last-of-type {
     font-size: 25px;
     width: 60%;
 }
+.typeSection ul{
+    font-size: 25px;
+    width: 60%;
+}
 
 /*
 
@@ -278,8 +292,4 @@ height: 300px;
 
 .protectsectiontext p{
     font-size: 25px;
-}
-
-header{
-    margin-bottom: 5vh;
 }
