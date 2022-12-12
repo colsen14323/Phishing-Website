@@ -150,7 +150,7 @@ section[class^=back-img] {
     display:flex;
     align-items:center;
     justify-content:space-around;
-    background-position: left,right;
+    background-position: center,center;
 }
 
 .back-img1 {
