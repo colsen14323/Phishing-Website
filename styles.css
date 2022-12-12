@@ -111,15 +111,15 @@ section[class*=hero] {
 }
 
 .about-hero {
-    background-image: url(images/network\ boosted.jpg),url(images/network.jpg);
+    background-image: url(images/network\ boosted.jpg),url(images/temp.PNG);
 }
 
 .types-hero {
-    background-image: url(images/Hecker\ bosted.jpg),url(images/Hecker.jpg);
+    background-image: url(images/Hecker\ bosted.jpg),url(images/Hecker.PNG);
 }
 
 .protect-hero {
-    background-image: url(images/lock\ boosted.jpg),url(images/lock.jpg);
+    background-image: url(images/lock\ boosted.jpg),url(images/lock.PNG);
 }
 
 section.home-hero{
@@ -150,19 +150,19 @@ section[class^=back-img] {
     display:flex;
     align-items:center;
     justify-content:space-around;
-    background-position: center,center;
+    background-position: left,right;
 }
 
 .back-img1 {
-    background-image:url(images/network\ boosted.jpg),url(images/network.jpg);
+    background-image:url(images/network\ boosted.jpg),url(images/temp.PNG);
 }
 
 .back-img2 {
-    background-image:url(images/Hecker\ bosted.jpg),url(images/Hecker.jpg);
+    background-image:url(images/Hecker\ bosted.jpg),url(images/hecker.PNG);
 }
 
 .back-img3 {
-    background-image:url(images/lock\ boosted.jpg),url(images/lock.jpg);
+    background-image:url(images/lock\ boosted.jpg),url(images/lock.PNG);
 }
 
 h3,
