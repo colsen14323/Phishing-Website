@@ -110,15 +110,15 @@ section[class*=hero] {
 }
 
 .about-hero {
-    background-image: url(images/network\ boosted.jpg);
+    background-image: url(images/network\ boosted.jpg),url(images/network.jpg);
 }
 
 .types-hero {
-    background-image: url(images/Hecker\ bosted.jpg);
+    background-image: url(images/Hecker\ bosted.jpg),url(images/Hecker.jpg);
 }
 
 .protect-hero {
-    background-image: url(images/lock\ boosted.jpg);
+    background-image: url(images/lock\ boosted.jpg),url(images/lock.jpg);
 }
 
 section.home-hero{
@@ -153,15 +153,15 @@ section[class^=back-img] {
 }
 
 .back-img1 {
-    background-image:url(images/network\ boosted.jpg)
+    background-image:url(images/network\ boosted.jpg),url(images/network.jpg);
 }
 
 .back-img2 {
-    background-image:url(images/Hecker\ bosted.jpg)
+    background-image:url(images/Hecker\ bosted.jpg),url(images/Hecker.jpg);
 }
 
 .back-img3 {
-    background-image:url(images/lock\ boosted.jpg)
+    background-image:url(images/lock\ boosted.jpg),url(images/lock.jpg);
 }
 
 h3,
