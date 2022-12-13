@@ -13,6 +13,10 @@ section[class^="definition"]{
     margin-bottom: 10vh;
 }
 
+section{
+    box-sizing: border-box;
+}
+
 .Title {
     background-color: #334C6A;
     color: aliceblue;
@@ -21,19 +25,21 @@ section[class^="definition"]{
     text-align: center;
     font-size: 3em;
     box-sizing: border-box;
-    height: 150px;
-    padding: 0%;
     display: flex;
-    
 }
 
 .Title a {
-    margin: auto auto;
-
+    padding: 4vh;
+    width: 100%;
+    height: 100%;
 }
+
+.Title a:hover{
+    background-color: #45536b;
+}
+
 .Title h2 {
     margin: auto auto;
-    
 }
 
 p {
@@ -44,7 +50,6 @@ p {
 .Nav {
     background-color:  #334C6A;
     color: aliceblue;
-    /* border: solid black 3px; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -60,6 +65,10 @@ p {
     padding: 10px;
     color: white;
     text-decoration: none;
+}
+
+.Nav a:hover{
+    background-color: #45536b;
 }
 
 .Nav a:first-of-type{
@@ -79,16 +88,16 @@ body {
 .home-body {
     background-image: url(images/Fishing\ pole\ pole.png);
     background-repeat: no-repeat;
-    background-position-y: 200px;
+    background-position-y: top;
     background-color: #455C6B;
     background-position-x: center;
-    background-size: 50vw;
+    background-size: max(50vw, 575px);
     margin:0px;
 }
 
 section[class*=hero] h1 {
     text-align: center;
-    font-size: 150px;
+    font-size: min(150px, 20vw);
     color: aliceblue;
     margin: 0;
     background-color: rgba(51, 76, 106, 0.7);
@@ -142,7 +151,7 @@ footer {
 }
 
 section[class^=back-img] {
-    height:100vh;
+    height:min(100vh, 100vw);
     width:100%;
     background-repeat:no-repeat,no-repeat;
     background-size:cover,cover;
@@ -241,7 +250,7 @@ footer a:last-of-type {
     margin-bottom: 10vh;
     font-size: 25px;
     color: white;
-    padding: 30px;
+    padding: min(30px, 3vw);
 }
 
 .typeSection p{
@@ -294,3 +303,39 @@ height: 300px;
 .protectsectiontext p{
     font-size: 25px;
 }
+
+@media(max-width:1250px){
+
+    .protectsection{
+        flex-direction: column;
+    }
+    .protectsection section{
+        flex-direction: column;
+        width: max(80vw);
+    }
+    .protectsection img{
+        order: 1;
+        margin: 5vh 0;
+    }
+}
+
+@media(max-width:700px){
+    .typeSection ul,
+    .typeSection p{
+        width: 85%;
+    }
+
+    .protectsection{
+        flex-direction: column;
+    }
+    .protectsection section{
+        flex-direction: column;
+        width: 90vw;
+        height: fit-content;
+    }
+    .protectsection img{
+        order: 1;
+        margin: 5vh 0;
+    }
+}
+
