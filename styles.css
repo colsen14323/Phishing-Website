@@ -79,6 +79,10 @@ p {
     border-right: black solid 6px;
 }
 
+.OnThisPage{
+    font-weight:bolder;
+}
+
 
 body {
     background-color: #455C6B;
@@ -298,6 +302,7 @@ align-items: center;
 
 .protectsection img{
 height: 300px;
+border-radius: 10px;
 }
 
 .protectsectiontext p{
@@ -311,7 +316,7 @@ height: 300px;
     }
     .protectsection section{
         flex-direction: column;
-        width: max(80vw);
+        width: 80%;
     }
     .protectsection img{
         order: 1;
@@ -330,12 +335,17 @@ height: 300px;
     }
     .protectsection section{
         flex-direction: column;
-        width: 90vw;
+        width: 90%;
         height: fit-content;
     }
     .protectsection img{
         order: 1;
         margin: 5vh 0;
+    }
+
+    .protectsection img{
+        height: auto;
+        width: 90%;
     }
 }
 
