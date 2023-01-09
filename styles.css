@@ -325,6 +325,10 @@ border-radius: 10px;
 }
 
 @media(max-width:700px){
+    .Nav a{
+        font-size: 25px;
+    }
+
     .typeSection ul,
     .typeSection p{
         width: 85%;
